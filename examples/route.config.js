@@ -34,7 +34,7 @@ const registerRoute = (navConfig) => {
   let route = [];
   Object.keys(navConfig).forEach((lang, index) => {
     let navs = navConfig[lang];
-    route.push({
+    route.push({  // 加载componet组件
       path: `/${ lang }/component`,
       redirect: `/${ lang }/component/installation`,
       component: load(lang, 'component'),

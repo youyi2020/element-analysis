@@ -3,6 +3,7 @@ import App from './app'
 import TGBase from 'main/index.js';
 import VueRouter from 'vue-router';
 import routes from './route.config';
+import 'packages/theme-chalk/src/index.scss';
 import demoBlock from './components/demo-block';
 
 Vue.config.productionTip = false;
